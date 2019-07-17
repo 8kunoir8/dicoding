@@ -5,7 +5,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'sqlsrv:server = tcp:dicodingserver.database.windows.net,1433; Database = dicodingsql; charset=utf8',
+	'dsn'	=> 'sqlsrv:server = tcp:dicodingserver.database.windows.net,1433; Database = dicodingsql; charset=utf8mb4',
 	'hostname' => 'dicodingserver.database.windows.net,1433',
 	'username' => 'dicodingadmin',
 	'password' => 'D1c0d1ng',
