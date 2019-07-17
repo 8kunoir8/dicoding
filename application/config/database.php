@@ -6,7 +6,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'dicodingserver.database.windows.net',
+	'hostname' => 'dicodingserver.database.windows.net,1433',
 	'username' => 'dicodingadmin',
 	'password' => 'D1c0d1ng',
 	'database' => 'dicodingsql',
