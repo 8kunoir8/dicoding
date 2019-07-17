@@ -10,7 +10,7 @@ $db['default'] = array(
 	'username' => 'dicodingadmin',
 	'password' => 'D1c0d1ng',
 	'database' => 'dicodingsql',
-	'dbdriver' => 'pdo',
+	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
