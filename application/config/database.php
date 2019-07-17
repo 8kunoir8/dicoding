@@ -12,7 +12,7 @@ $db['default'] = array(
 	'database' => 'dicodingsql',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
-	'pconnect' => TRUE,
+	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
 	'cachedir' => '',
